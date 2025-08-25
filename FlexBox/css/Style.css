@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor{
+    display: flex;
+    width: 100%;
+    min-height: 50%;
+    border: solid red;
+}
+
+#contenedorCajas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    flex-wrap: wrap;
+  min-width: 30dvh;
+    min-width: 30vw;
+}
+#contenedorCirculos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    flex-wrap: nowrap;
+    min-width: 30dvh;
+    min-width: 30vw;
+
+
+}
+
+
+#padre{
+
+    width: 80vw;
+    min-height: 80vh;
+    background-color: aquamarine;
+
+}
+
+.caja{
+    
+    width: 180px;
+    height: 180px;
+    background-color:  coral;
+
+}
+.circulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color:  yellow;
+
+}
+.cajita{
+
+    width: 30%;
+    height: 30%;
+    background-color:  rgb(232, 116, 74);
+
+}

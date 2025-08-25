@@ -1,0 +1,13 @@
+body{
+    margin: 0;
+    padding: 0;
+   box-sizing: border-box;
+   background-color: lightseagreen;
+}
+header {
+    background-color: blue;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: center;
+}

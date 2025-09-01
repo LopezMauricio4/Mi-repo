@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(48, 4, 4);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(1, 99, 14);
+    height: 100px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+nav {
+    background-color: rgb(210, 30, 30);
+    height: 50px;
+
+
+}
+
+main {
+    background-color: rgb(230, 185, 8);
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+aside {
+    background-color: rgb(5, 117, 121);
+    height: 100px;
+}
+
+footer {
+    background-color: rgb(98, 9, 150);
+    height: 100px;
+}
+
+.contenedor {
+    height: 40%;
+    width: 90%;
+    background-color: rgb(22, 97, 3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.caja {
+    width: 97%;
+    height: 40%;
+    background-color: rgb(187, 187, 173);
+
+}
+
+@media (min-width: 769px) {
+   .gridContainer {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: 2fr 1fr 5fr 2fr;
+        grid-template-areas:
+            "header header"
+            "nav nav"
+            "aside main"
+            "footer footer";
+        height: 100vh;
+    }
+    header {
+        grid-area: header;
+        height: auto;
+    }
+    nav {
+        grid-area: nav;
+        height: auto;
+    }
+    main {
+        grid-area: main;
+        height: auto;
+        justify-content: space-around;
+       
+    }
+    aside {
+        grid-area: aside;
+        height: auto;
+    }
+    footer {
+        grid-area: footer;
+        height: auto;
+    }
+    .cajita {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(239, 243, 27);
+    border: 3px solid;
+    border-color: rgb(170, 7, 7);
+}
+
+    .contenedor {
+        flex-direction: row;
+        height: 45%;
+        width: 97%;
+        
+    }
+
+    .caja {
+        width: 45%;
+        height: 80%;
+    }
+}

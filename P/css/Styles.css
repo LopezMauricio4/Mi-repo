@@ -1,0 +1,24 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    background-color: aliceblue;
+
+}
+nav {
+    height: 30px;
+    background-color: rgb(150, 145, 139);
+}
+main{
+    height: 80vh;
+    background-color: rgb(66, 88, 107);
+}
+footer{
+    height: 45px;
+    background-color: rgb(24, 5, 5);
+}
